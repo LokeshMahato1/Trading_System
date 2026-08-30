@@ -1,0 +1,42 @@
+# Secrets
+.env
+.env.*
+
+# Runtime database (contains real user/order/password data)
+*.db
+*.sqlite
+*.sqlite3
+
+# Build output
+build/
+build-*/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+
+# Qt / QML generated files
+*.qmlc
+*.jsc
+moc_*.cpp
+qrc_*.cpp
+*_qmltyperegistrations.cpp
+.qmake.stash
+
+# Compiled binaries/objects
+*.o
+*.obj
+*.a
+*.so
+*.dll
+*.exe
+trading_system
+trading_gui
+
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
